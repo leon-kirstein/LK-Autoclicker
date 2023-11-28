@@ -1,0 +1,16 @@
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\bin\Debug\net6.0-windows\Autoclicker.exe
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\bin\Debug\net6.0-windows\Autoclicker.deps.json
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\bin\Debug\net6.0-windows\Autoclicker.runtimeconfig.json
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\bin\Debug\net6.0-windows\Autoclicker.dll
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\bin\Debug\net6.0-windows\Autoclicker.pdb
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.Form1.resources
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.csproj.GenerateResource.cache
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.AssemblyInfoInputs.cache
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.AssemblyInfo.cs
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.csproj.CoreCompileInputs.cache
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.dll
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\refint\Autoclicker.dll
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.pdb
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.genruntimeconfig.cache
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\ref\Autoclicker.dll
