@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>LKs Autoclicker</Title>
+    <Authors>L. Kirstein</Authors>
+    <Description>Autoclicker</Description>
+    <Copyright>Copyright © 2023 L. Kirstein </Copyright>
+    <PackageProjectUrl>https://github.com/leon-kirstein/LK-Autoclicker</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/leon-kirstein/LK-Autoclicker</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

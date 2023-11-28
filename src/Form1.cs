@@ -47,7 +47,7 @@ namespace Autoclicker
 
         private void HelpDialog(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Autor: L. Kirstein\nContributor: J. S.\nVersion 1.0\n\nInfo:\nHold CTRL to Pause the Autoclicker", "LKs Autoklicker", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
