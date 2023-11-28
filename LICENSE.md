@@ -1,4 +1,4 @@
-## General Copyright © 2023 L. Kirstein
+## "LKs Autoclicker" Copyright © 2023 L. Kirstein
 ***
 ### 1 If you obtain a copy of "LKs Autoclicker" you are required to :
 * 1.1 Respect other peoples legitmate interest(s) while you are using this program / source code.
