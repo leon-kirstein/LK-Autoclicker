@@ -14,3 +14,4 @@ D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\ne
 D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.pdb
 D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.genruntimeconfig.cache
 D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\ref\Autoclicker.dll
+D:\Mein Ordner\Projekte\Privat\Programme\C#\VS22\PA_WPF\Autoclicker\obj\Debug\net6.0-windows\Autoclicker.Properties.Resources.resources

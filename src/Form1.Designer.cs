@@ -1,4 +1,6 @@
-﻿namespace Autoclicker
+﻿using Autoclicker.Properties;
+
+namespace Autoclicker
 {
     partial class Form1
     {
@@ -29,49 +31,50 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            trackBar1 = new TrackBar();
-            label1 = new Label();
-            button1 = new Button();
+            clickSetBar = new TrackBar();
+            cpsLabel = new Label();
+            btnStop = new Button();
             Autoclicker = new System.Windows.Forms.Timer(components);
             btnStart = new Button();
             menuStrip1 = new MenuStrip();
             helpToolStripMenuItem = new ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
+            stopKeyComboBox = new ComboBox();
+            ((System.ComponentModel.ISupportInitialize)clickSetBar).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // trackBar1
+            // clickSetBar
             // 
-            trackBar1.Location = new Point(12, 54);
-            trackBar1.Maximum = 1000000;
-            trackBar1.Minimum = 1;
-            trackBar1.Name = "trackBar1";
-            trackBar1.Size = new Size(355, 45);
-            trackBar1.TabIndex = 0;
-            trackBar1.TickStyle = TickStyle.None;
-            trackBar1.Value = 1;
-            trackBar1.Scroll += SetClicks;
+            clickSetBar.Location = new Point(12, 54);
+            clickSetBar.Maximum = 1000;
+            clickSetBar.Minimum = 1;
+            clickSetBar.Name = "clickSetBar";
+            clickSetBar.Size = new Size(355, 45);
+            clickSetBar.TabIndex = 0;
+            clickSetBar.TickStyle = TickStyle.None;
+            clickSetBar.Value = 1;
+            clickSetBar.Scroll += SetClicks;
             // 
-            // label1
+            // cpsLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 36);
-            label1.Name = "label1";
-            label1.Size = new Size(73, 15);
-            label1.TabIndex = 1;
-            label1.Text = "1 Clicks/Sec.";
+            cpsLabel.AutoSize = true;
+            cpsLabel.Location = new Point(12, 36);
+            cpsLabel.Name = "cpsLabel";
+            cpsLabel.Size = new Size(73, 15);
+            cpsLabel.TabIndex = 1;
+            cpsLabel.Text = "1 Clicks/Sec.";
             // 
-            // button1
+            // btnStop
             // 
-            button1.Enabled = false;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Location = new Point(292, 105);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Stop";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += StopAutoclick;
+            btnStop.Enabled = false;
+            btnStop.FlatStyle = FlatStyle.Popup;
+            btnStop.Location = new Point(292, 105);
+            btnStop.Name = "btnStop";
+            btnStop.Size = new Size(75, 23);
+            btnStop.TabIndex = 2;
+            btnStop.Text = "Stop";
+            btnStop.UseVisualStyleBackColor = true;
+            btnStop.Click += StopAutoclick;
             // 
             // Autoclicker
             // 
@@ -91,6 +94,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.Control;
             menuStrip1.Items.AddRange(new ToolStripItem[] { helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -105,21 +109,34 @@
             helpToolStripMenuItem.Text = "Help";
             helpToolStripMenuItem.Click += HelpDialog;
             // 
+            // stopKeyComboBox
+            // 
+            stopKeyComboBox.FormattingEnabled = true;
+            stopKeyComboBox.Items.AddRange(new object[] { "CTRL", "ALT", "SHIFT" });
+            stopKeyComboBox.Location = new Point(12, 105);
+            stopKeyComboBox.Name = "stopKeyComboBox";
+            stopKeyComboBox.Size = new Size(193, 23);
+            stopKeyComboBox.TabIndex = 5;
+            stopKeyComboBox.Text = "Stop Key";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(379, 138);
+            Controls.Add(stopKeyComboBox);
             Controls.Add(btnStart);
-            Controls.Add(button1);
-            Controls.Add(label1);
-            Controls.Add(trackBar1);
+            Controls.Add(btnStop);
+            Controls.Add(cpsLabel);
+            Controls.Add(clickSetBar);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = Resources.app;
             MainMenuStrip = menuStrip1;
             Name = "Form1";
+            ShowIcon = false;
             Text = "LKs Autoclicker";
-            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)clickSetBar).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -128,12 +145,13 @@
 
         #endregion
 
-        private TrackBar trackBar1;
-        private Label label1;
-        private Button button1;
+        private TrackBar clickSetBar;
+        private Label cpsLabel;
+        private Button btnStop;
         private System.Windows.Forms.Timer Autoclicker;
         private Button btnStart;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem helpToolStripMenuItem;
+        private ComboBox stopKeyComboBox;
     }
 }
